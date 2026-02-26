@@ -1,0 +1,13 @@
+.git
+__pycache__
+*.egg-info
+output/
+checkpoint/
+exp/
+wandb/
+build/
+tmp/
+data/
+dist/
+*.so
+docker/
