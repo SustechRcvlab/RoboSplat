@@ -8,7 +8,7 @@ This folder contains Docker and Docker Compose configuration for quickly buildin
 |---|---|
 | Docker Engine | ≥ 20.10 |
 | Docker Compose | ≥ 2.0 (the `docker compose` plugin) |
-| NVIDIA Driver | ≥ 520 (for CUDA 11.8 support) |
+| NVIDIA Driver | ≥ 450.80.02 (for CUDA 11.8 support) |
 | [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) | latest |
 
 ## Quick Start

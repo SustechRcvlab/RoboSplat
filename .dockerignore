@@ -10,4 +10,3 @@ tmp/
 data/
 dist/
 *.so
-docker/

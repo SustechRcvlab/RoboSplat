@@ -52,7 +52,7 @@ RUN pip install --no-cache-dir /tmp/diff-gaussian-rasterization \
     && rm -rf /tmp/diff-gaussian-rasterization
 
 # ---------- Stage: PyTorch3D ----------
-RUN git clone --depth 1 https://github.com/facebookresearch/pytorch3d.git /tmp/pytorch3d \
+RUN git clone --depth 1 --branch v0.7.8 https://github.com/facebookresearch/pytorch3d.git /tmp/pytorch3d \
     && curl -L -o /tmp/cub.tar.gz https://github.com/NVIDIA/cub/archive/1.16.0.tar.gz \
     && tar xzf /tmp/cub.tar.gz -C /tmp \
     && CUB_HOME=/tmp/cub-1.16.0 pip install --no-cache-dir /tmp/pytorch3d \
